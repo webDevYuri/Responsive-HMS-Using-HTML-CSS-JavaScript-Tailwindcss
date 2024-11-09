@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="assets/logo/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Diana's Resort | Gallery</title>
+</head>
+<body class="bg-green-50">
+    <header>
+        <nav class="navbar hidden sm:block py-2 fixed top-0 left-0 w-full z-50">
+            <div class="header-top-element duration-300 flex items-center justify-between mb-2 px-10">
+                <div class="social-header-links flex gap-3 xl:gap-5">
+                    <a href="#" class="no-underline text-green-50 lg:-text-md text-sm xl:text-xl">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="no-underline text-green-50 lg:-text-md text-sm xl:text-xl">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="#" class="no-underline text-green-50 lg:-text-md text-sm xl:text-xl">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="no-underline text-green-50 lg:-text-md text-sm xl:text-xl">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </div>
+                <div class="contact-header flex gap-5">
+                    <div class="flex">
+                        <i class="fa-solid fa-phone text-green-50 lg:-text-md text-[10px] xl:text-base me-2"></i>
+                        <p class="text-green-50 text-[10px] xl:text-base">+63 907 098 4368</p>
+                    </div>
+                    <div class="flex">
+                        <i class="fa-solid fa-envelope text-green-50 lg:-text-md text-[10px] xl:text-base me-2"></i>
+                        <p class="text-green-50 text-[10px] xl:text-base">grandluxehotel@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="header-hr duration-300">
+
+            <div class="2xl:p-10 p-5 nav-link-list flex justify-center items-center relative">
+                <ul class="nav-container flex items-center 2xl:gap-7 xl:gap-2 gap-1 justify-center">
+                    <li>
+                        <a href="index.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">HOME</a>
+                    </li>
+                    <li>
+                        <a href="facilities.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">FACILITIES</a>
+                    </li>
+                    <li>
+                        <a href="rooms.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-md text-sm font-semibold text-green-50 px-3 py-2 me-2">ROOMS</a>
+                    </li>
+                    <li>
+                        <a href="index.html"><img src="assets/logo/logo.png" alt="LOGO" class="duration-1000 ease-in logo-image p-2"></a>
+                    </li>
+                    <li>
+                        <a href="offers.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2 ml-2">OFFERS</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html" class="nav-link link-active duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 bg-green-950 rounded-br-3xl rounded-tl-3xl px-3 py-2">GALLERY</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">CONTACT</a>
+                    </li>
+                </ul>
+                <a href="#" class="book-now-floating-btn hidden xl:block hover:rounded-3xl bg-green-50 text-base duration-200 ease-in rounded-md text-green-950 py-3 px-10 font-semibold ">
+                    BOOK NOW
+                </a>
+            </div>
+        </nav>
+
+        <div class="flex sm:hidden justify-between p-5 mobile-navbar fixed top-0 left-0 w-full z-40">
+            <a href="index.html"><img src="assets/logo/logo.png" alt="LOGO" class="mobile-logo-image duration-500 ease-in w-24 p-2"></a>
+            <button onclick="toggleSidebar()" id="menuBtn" class="text-3xl font-bold text-green-50">
+                <i class="fa-solid fa-bars" id="menuIcon"></i>
+            </button>
+        </div>
+    </header>
+
+    <aside class="sidebar sm:hidden left-0 w-2/3 px-2 flex flex-col justify-center">
+        <div class="flex flex-col px-2 items-start gap-2">
+            <a href="index.php"><img src="assets/logo/logo.png" alt="LOGO" class="shadow-2xl w-24 bg-green-50 p-2" style="border-radius: 23% 0% 24% 0% / 22% 10% 23% 10%;"></a>
+            <div class="mb-1">
+                <h1 class="font-bold text-lg text-green-950">Diana's Hotel & Resort</h1>
+                <p class="text-md text-green-950">dianashotel@gmail.com</p>
+            </div>
+        </div>
+        <ul class="flex flex-col gap-3 px-5 pt-5">
+            <li>
+                <a href="index.html" class="flex">
+                    <i class="fa-solid w-[60px] fa-house text-green-950 text-2xl"></i>
+                    <p class="text-xl text-green-950">Home</p>
+                </a>
+            </li>
+            <li>
+                <a href="facilities.html" class="flex">
+                    <i class="fa-solid w-[60px] fa-person-swimming text-green-950 text-2xl"></i>
+                    <p class="text-xl text-green-950">Facilities</p>
+                </a>
+            </li>
+            <li>
+                <a href="rooms.html" class="flex">
+                    <i class="fa-solid w-[60px] fa-bed text-green-950 text-2xl"></i>
+                    <p class="text-xl text-green-950">Rooms</p>
+                </a>
+            </li>
+            <li>
+                <a href="offers.html" class="flex">
+                    <i class="fa-solid w-[60px] fa-tags text-green-950 text-2xl"></i>
+                    <p class="text-xl text-green-950">Offers</p>
+                </a>
+            </li>
+            <li>
+                <a href="gallery.html" class="flex">
+                    <i class="fa-solid w-[60px] fa-images text-green-950 text-2xl"></i>
+                    <p class="text-xl text-green-950">Gallery</p>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html" class="flex">
+                    <i class="fa-solid w-[60px] fa-envelope text-green-950 text-2xl"></i>
+                    <p class="text-xl text-green-950">Contact</p>
+                </a>
+            </li>            
+        </ul>
+
+        <button class="mt-5 w-full hover:bg-green-800 duration-200 ease-in py-2 bg-green-950 text-green-50">BOOK NOW</button>
+
+        <hr class="mt-2 bg-green-700 h-0.5">
+
+        <div class="px-5">
+            <p class="pt-5 text-lg text-green-950 font-bold">Follow Us</p>
+            <div class="flex gap-2 mt-2">
+                <a href="#" class="text-green-950 text-xl">
+                    <i class="fa-brands fa-facebook-f bg-green-100 justify-center items-center flex w-[35px] h-[35px] shadow-lg rounded-full"></i>
+                </a>
+                <a href="#" class="text-green-950 text-xl">
+                    <i class="fa-brands fa-tiktok bg-green-100 justify-center items-center flex w-[35px] h-[35px] shadow-lg rounded-full"></i>
+                </a>
+                <a href="#" class="text-green-950 text-xl">
+                    <i class="fa-brands fa-instagram bg-green-100 justify-center items-center flex w-[35px] h-[35px] shadow-lg rounded-full"></i>
+                </a>
+                <a href="#" class="text-green-950 text-xl">
+                    <i class="fa-brands fa-x-twitter bg-green-100 justify-center items-center flex w-[35px] h-[35px] shadow-lg rounded-full"></i>
+                </a>                
+            </div>
+        </div>
+    </aside>
+
+    <div class="hidden sm:block carousel">
+        <img src="assets/bg/bg1.jpg" alt="BACKGROUND ONE" class="carousel-image active absolute top-0 left-0 w-full bottom-0 h-full">
+        <img src="assets/bg/bg2.jpg" alt="BACKGROUND TWO" class="carousel-image absolute top-0 left-0 w-full bottom-0 h-full">
+    </div>
+    <div class="block relative sm:hidden carousel">
+        <img src="assets/bg/mobilebg1.jpg" alt="BACKGROUND ONE" class="carousel-image active absolute top-0 left-0 w-full bottom-0 h-full">
+        <img src="assets/bg/gftmobile.jpg" alt="BACKGROUND TWO" class="carousel-image absolute top-0 left-0 w-full bottom-0 h-full">
+    </div>
+    <div class="overlay"></div>
+
+    <div class="fade-in absolute bottom-0 z-20 bg-green-50 flex sm:hidden items-center justify-center px-2 py-5" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+        <img src="assets/decoration/leaf-left.png" class="leaf left-leaf w-2/12" alt="LEAF">
+        <div class="tagline-container flex-col px-3 text-center">
+            <h1 class="text-green-950 font-bold text-xl">Diana's Hotel & Resort</h1>
+            <p class="text-green-900 text-[10px]">LUXURY BEYOND BOUNDARIES, COMFORT WITHOUT COMPROMISE</p>
+        </div>
+        <img src="assets/decoration/leaf-right.png" class="leaf right-leaf w-2/12" alt="LEAF" >
+    </div>
+
+    <div class="fade-in hidden sm:flex md:gap-5 items-center justify-center px-2 py-5 xl:py-10" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+        <img src="assets/decoration/leaf-left.png" class="leaf left-leaf w-2/12 md:w-[120px]" alt="LEAF">
+        <div class="tagline-container flex-col px-3 text-center">
+            <h1 class="text-green-950 font-bold text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Diana's Hotel & Resort</h1>
+            <p class="text-green-900 text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[19px]">LUXURY BEYOND BOUNDARIES, COMFORT WITHOUT COMPROMISE</p>
+        </div>
+        <img src="assets/decoration/leaf-right.png" class="leaf right-leaf w-2/12 md:w-[120px]" alt="LEAF" >
+    </div>
+
+    <div class="mt-10">
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="text-lg font-bold text-green-950 sm:text-3xl md:text-4xl">MEMORIES WITH US</h1>
+            <img src="assets/decoration/dark.png" alt="DECORATION" class="w-[100px] sm:w-[200px] sm:-mt-5 -mt-2 md:-mt-7">
+        </div>
+
+        <div class="flex justify-center flex-wrap px-5">
+            <div class="fade-in w-1/2 md:w-[30%]">
+                <a href="assets/memories/memories1.jpg" rel="noopener noreferrer" target="_blank">
+                    <img src="assets/memories/memories1.jpg" class="w-full" alt="MEMORIES">
+                </a>
+            </div>
+            <div class="fade-in w-1/2 md:w-[30%]">
+                <a href="assets/memories/memories2.jpg" rel="noopener noreferrer" target="_blank">
+                    <img src="assets/memories/memories2.jpg" class="w-full" alt="MEMORIES">
+                </a>
+            </div>
+            <div class="fade-in w-1/2 md:w-[30%]">
+                <a href="assets/memories/memories3.jpg" rel="noopener noreferrer" target="_blank">
+                    <img src="assets/memories/memories3.jpg" class="w-full" alt="MEMORIES">
+                </a>
+            </div>
+            <div class="fade-in w-1/2 md:w-[30%]">
+                <a href="assets/memories/memories4.jpg" rel="noopener noreferrer" target="_blank">
+                    <img src="assets/memories/memories4.jpg" class="w-full" alt="MEMORIES">
+                </a>
+            </div>
+            <div class="fade-in w-1/2 md:w-[30%]">
+                <a href="assets/memories/memories1.jpg" rel="noopener noreferrer" target="_blank">
+                    <img src="assets/memories/memories1.jpg" class="w-full" alt="MEMORIES">
+                </a>
+            </div>
+            <div class="fade-in w-1/2 md:w-[30%]">
+                <a href="assets/memories/memories2.jpg" rel="noopener noreferrer" target="_blank">
+                    <img src="assets/memories/memories2.jpg" class="w-full" alt="MEMORIES">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-green-950 flex justify-center items-center flex-col gap-3 px-2 py-10 my-10">
+        <h1 class="text-green-50 text-xl sm:text-2xl md:text-3xl font-extralight text-center">Reserve directly through our website for the best rates at Diana's Hotel & Resort!</h1>
+        <button class="bg-green-50 text-green-950 hover:bg-green-200 duration-200 hover:rounded-xl md:text-xl font-bold max-w-max px-5 rounded-sm py-4">CHECK RATES AND AVAILABLE ROOMS</button>
+    </div>
+
+    <footer class="overflow-x-hidden">
+        <div class="bg-green-50 gap-10 mt-5 flex flex-col lg:flex-row mb-10 lg:px-10 justify-center items-center px-2">
+            <div class="items-center lg:items-start flex flex-col w-full">
+                <div class="flex flex-col lg:items-start items-center">
+                    <img src="assets/logo/logo.png" alt="LOGO" class="w-[80px]">
+                    <h1 class="text-green-950 text-3xl font-bold">Diana's Hotel</h1>
+                </div>
+                <p class="py-1 text-center lg:text-left text-[10px] sm:text-[15px] text-green-950 w-96">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, praesentium!</p>
+                <div class="flex xl:gap-2 gap-1">
+                    <a href="#" class="no-underline text-green-950 text-lg sm:text-xl">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="no-underline text-green-950 text-lg sm:text-xl">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="#" class="no-underline text-green-950 text-lg sm:text-xl">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                    <a href="#" class="no-underline text-green-950 text-lg sm:text-xl">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="flex w-full justify-between sm:justify-around lg:justify-between">
+                <div>
+                    <h1 class="text-md sm:text-lg">Contacts</h1>
+                    <div class="mt-3 flex flex-col gap-1">
+                        <div class="flex items-center">
+                            <i class="fa-solid fa-envelope text-[10px] sm:text-[14px] w-[15px] sm:w-[20px]"></i>
+                            <p class="text-[10px] sm:text-[14px] text-green-950">dianashotel@gmail.com</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fa-solid fa-phone text-[10px] sm:text-[14px] w-[15px] sm:w-[20px]"></i>
+                            <p class="text-[10px] sm:text-[14px] text-green-950">09080984368</p>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fa-solid fa-location-dot text-[10px] sm:text-[14px] w-[15px] sm:w-[20px]"></i>
+                            <p class="text-[10px] sm:text-[14px] text-green-950">Bongabon, Nueva Ecija</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-md sm:text-lg">Quick Links</h1>
+                    <div class="mt-3">
+                        <ul class="flex flex-col gap-1">
+                            <li class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Home</li>
+                            <li class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Facilities</li>
+                            <li class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Rooms</li>
+                            <li class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Offers</li>
+                            <li class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Gallery</li>
+                            <li class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Contact</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-md sm:text-lg">Supports</h1>
+                    <div class="mt-3 flex flex-col gap-1">
+                        <a href="#" class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Support Desk</a>
+                        <a href="#" class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">FAQs</a>
+                        <a href="#" class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Contact</a>
+                        <a href="#" class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Report</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-green-950 p-2 justify-center flex">
+            <p class="text-green-50 text-[10px] sm:text-[14px]">&copy; 2024 Your Company Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+</html>

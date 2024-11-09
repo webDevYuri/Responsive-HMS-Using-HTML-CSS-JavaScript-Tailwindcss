@@ -8,6 +8,7 @@ function changeNavbarElementsDesign() {
     const mobileNavbar = document.getElementsByClassName("mobile-navbar")[0];
     const menuBtn = document.getElementById('menuBtn');
     const mobileLogo = document.getElementsByClassName('mobile-logo-image')[0];
+    const bookNowFloat = document.getElementsByClassName('book-now-floating-btn')[0];
 
     const scrollThreshold = 50; 
 
@@ -35,6 +36,9 @@ function changeNavbarElementsDesign() {
         linkActive.classList.remove('bg-green-950');
         linkActive.classList.add('bg-green-50');
 
+        bookNowFloat.classList.remove('bg-green-50', 'text-green-950')
+        bookNowFloat.classList.add('bg-green-950', 'text-green-50')
+
     } else {
         navbar.style.backgroundColor = '';
         navbar.style.boxShadow = '';
@@ -58,6 +62,9 @@ function changeNavbarElementsDesign() {
 
         linkActive.classList.remove('bg-green-50');
         linkActive.classList.add('bg-green-950');
+
+        bookNowFloat.classList.remove('bg-green-950', 'text-green-50')
+        bookNowFloat.classList.add('bg-green-50', 'text-green-950')
     }
 }
 

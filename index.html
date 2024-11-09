@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Diana's Resort</title>
+    <title>Diana's Resort | Home</title>
 </head>
 <body class="bg-green-50">
     <header>
@@ -44,35 +44,38 @@
 
             <hr class="header-hr duration-300">
 
-            <div class="2xl:p-10 p-5 nav-link-list">
+            <div class="2xl:p-10 p-5 nav-link-list flex justify-center items-center relative">
                 <ul class="nav-container flex items-center 2xl:gap-7 xl:gap-2 gap-1 justify-center">
                     <li>
-                        <a href="index.php" class="nav-link link-active duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 bg-green-950 rounded-br-3xl rounded-tl-3xl px-3 py-2" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">HOME</a>
+                        <a href="index.html" class="nav-link link-active duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 bg-green-950 rounded-br-3xl rounded-tl-3xl px-3 py-2">HOME</a>
                     </li>
                     <li>
-                        <a href="facilities-page.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">FACILITIES</a>
+                        <a href="facilities.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">FACILITIES</a>
                     </li>
                     <li>
-                        <a href="room-page.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-md text-sm font-semibold text-green-50 px-3 py-2">ROOMS</a>
+                        <a href="rooms.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-md text-sm font-semibold text-green-50 px-3 py-2 me-2">ROOMS</a>
                     </li>
                     <li>
-                        <a href="index.php"><img src="assets/logo/logo.png" alt="LOGO" class="duration-1000 ease-in logo-image p-2"></a>
+                        <a href="index.html"><img src="assets/logo/logo.png" alt="LOGO" class="duration-1000 ease-in logo-image p-2"></a>
                     </li>
                     <li>
-                        <a href="offers-page.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">OFFERS</a>
+                        <a href="offers.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2 ml-2">OFFERS</a>
                     </li>
                     <li>
-                        <a href="gallery-page.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">GALLERY</a>
+                        <a href="gallery.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">GALLERY</a>
                     </li>
                     <li>
-                        <a href="contact-page.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">CONTACT</a>
+                        <a href="contact.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">CONTACT</a>
                     </li>
                 </ul>
+                <a href="#" class="book-now-floating-btn hidden hover:rounded-3xl xl:block bg-green-50 text-base duration-200 ease-in rounded-md text-green-950 py-3 px-10 font-semibold ">
+                    BOOK NOW
+                </a>
             </div>
         </nav>
 
         <div class="flex sm:hidden justify-between p-5 mobile-navbar fixed top-0 left-0 w-full z-40">
-            <a href="index.php"><img src="assets/logo/logo.png" alt="LOGO" class="mobile-logo-image duration-500 ease-in w-24 p-2"></a>
+            <a href="index.html"><img src="assets/logo/logo.png" alt="LOGO" class="mobile-logo-image duration-500 ease-in w-24 p-2"></a>
             <button onclick="toggleSidebar()" id="menuBtn" class="text-3xl font-bold text-green-50">
                 <i class="fa-solid fa-bars" id="menuIcon"></i>
             </button>
@@ -89,44 +92,45 @@
         </div>
         <ul class="flex flex-col gap-3 px-5 pt-5">
             <li>
-                <a href="" class="flex">
+                <a href="index.html" class="flex">
                     <i class="fa-solid w-[60px] fa-house text-green-950 text-2xl"></i>
                     <p class="text-xl text-green-950">Home</p>
                 </a>
             </li>
             <li>
-                <a href="" class="flex">
+                <a href="facilities.html" class="flex">
                     <i class="fa-solid w-[60px] fa-person-swimming text-green-950 text-2xl"></i>
                     <p class="text-xl text-green-950">Facilities</p>
                 </a>
             </li>
             <li>
-                <a href="" class="flex">
+                <a href="rooms.html" class="flex">
                     <i class="fa-solid w-[60px] fa-bed text-green-950 text-2xl"></i>
                     <p class="text-xl text-green-950">Rooms</p>
                 </a>
             </li>
             <li>
-                <a href="" class="flex">
+                <a href="offers.html" class="flex">
                     <i class="fa-solid w-[60px] fa-tags text-green-950 text-2xl"></i>
                     <p class="text-xl text-green-950">Offers</p>
                 </a>
             </li>
             <li>
-                <a href="" class="flex">
+                <a href="gallery.html" class="flex">
                     <i class="fa-solid w-[60px] fa-images text-green-950 text-2xl"></i>
                     <p class="text-xl text-green-950">Gallery</p>
                 </a>
             </li>
             <li>
-                <a href="" class="flex">
+                <a href="contact.html" class="flex">
                     <i class="fa-solid w-[60px] fa-envelope text-green-950 text-2xl"></i>
                     <p class="text-xl text-green-950">Contact</p>
                 </a>
             </li>            
         </ul>
+        <button class="mt-5 w-full hover:bg-green-800 duration-200 ease-in py-2 bg-green-950 text-green-50">BOOK NOW</button>
 
-        <hr class="mt-10 bg-green-700 h-0.5">
+        <hr class="mt-2 bg-green-700 h-0.5">
 
         <div class="px-5">
             <p class="pt-5 text-lg text-green-950 font-bold">Follow Us</p>
@@ -196,7 +200,7 @@
     </div>
     
     <div class="md:mt-10" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
-        <div class="md:flex">
+        <div class="md:flex pb-5 md:pb-0">
             <div class="fade-in md:w-6/12">
                 <img src="assets/rooms/whyRoom.jpg" alt="" class="h-full">
             </div>
@@ -343,7 +347,7 @@
             </div>
         
             <div class="fade-in deluxe-room relative items-center flex flex-col md:flex-row">
-                <div class="deluxe-room-description sm:p-6 md:py-0 flex flex-col p-3 xl:px-10 md:w-3/6">
+                <div class="deluxe-room-description sm:p-6 md:py-0 flex flex-col order-2 md:order-1 p-3 xl:px-10 md:w-3/6">
                     <h1 class="text-green-950 font-bold md:text-lg lg:text-2xl text-xl xl:text-3xl">Deluxe Family Room</h1>
                     <p class="text-green-800 mb-3 py-3 xl:py-5 md:py-0 md:text-xs lg:text-[15px] text-sm  xl:mt-2" style="line-height: 25px;">Spacious family room with a cozy atmosphere, perfect for bonding moments. Enjoy luxury amenities and a peaceful stay.</p>
                     <p class="md:text-xs lg:text-lg">Starts From &#8369;4,999 <span class="font-bold md:text-xs lg:text-lg">/24 HOURS</span></p>
@@ -381,7 +385,7 @@
             </div>
         
             <div class="fade-in deluxe-room relative items-center flex flex-col md:flex-row">
-                <div class="deluxe-room-description sm:p-6 md:py-0 flex flex-col p-3 xl:px-10 md:w-3/6">
+                <div class="deluxe-room-description sm:p-6 md:py-0 flex flex-col order-2 md:order-1 p-3 xl:px-10 md:w-3/6">
                     <h1 class="text-green-950 font-bold md:text-lg lg:text-2xl text-xl xl:text-3xl">Deluxe Family Room</h1>
                     <p class="text-green-800 mb-3 py-3 xl:py-5 md:py-0 md:text-xs lg:text-[15px] text-sm  xl:mt-2" style="line-height: 25px;">Spacious family room with a cozy atmosphere, perfect for bonding moments. Enjoy luxury amenities and a peaceful stay.</p>
                     <p class="md:text-xs lg:text-lg">Starts From &#8369;4,999 <span class="font-bold md:text-xs lg:text-lg">/24 HOURS</span></p>
