@@ -59,6 +59,11 @@ img.mobile-logo-image, img.logo-image {
     transform: translateX(0);
 }
 
+li.sidebar-nav-link-active {
+    background-color: #f0fdf4;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 #menuBtn i {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
