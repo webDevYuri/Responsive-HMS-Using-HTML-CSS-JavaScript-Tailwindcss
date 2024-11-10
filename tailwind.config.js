@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./*.html", // Includes all HTML files in the root directory
+    "./*.html",
+    "./admin/*.html",
   ],
   theme: {
     extend: {},
