@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Diana's Resort | Admin Panel</title>
+    <title>Diana's Resort | Admin Dashboard</title>
 </head>
 <body class="bg-slate-200">
 
@@ -31,7 +31,7 @@
                 <img src="../assets/testimonials/test.png" alt="ADMIN PROFILE" class="rounded-full w-[40px] h-[40px]">
                 <div>
                     <p class="text-sm font-bold text-green-950">Yuri G.</p>
-                    <p class="text-[10px] font-semibold text-green-950">yuri@gmail.com</p>
+                    <p class="text-[10px] font-semibold text-green-950">yurigonzaga@gmail.com</p>
                 </div>
             </div>
             <div class="w-[40px] h-[40px] bg-white rounded-xl flex items-center justify-center" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;">
@@ -101,37 +101,37 @@
 
     <div class="main px-5 pt-10 mt-10">
         <div class="flex gap-3">
-            <a href="#" class="flex items-center justify-between w-[300px] h-[130px] shadow-lg px-5 bg-gradient-to-r from-blue-400 to-blue-300 rounded-lg">
+            <a href="#" class="flex items-center justify-between w-full h-[200px] shadow-lg px-5 bg-gradient-to-r from-blue-400 to-blue-300 rounded-lg">
                 <div class="flex flex-col gap-3">
                     <h1 class="text-4xl font-semibold text-white drop-shadow-md">23</h1>
-                    <h2 class="text-white font-semibold drop-shadow-md">Pending</h2>
+                    <h2 class="text-white font-semibold text-xl drop-shadow-md">Pending</h2>
                 </div>
                 <div>
                     <i class="text-white text-4xl drop-shadow-md fa-solid fa-hourglass-half"></i>
                 </div>
             </a>
-            <a href="#" class="flex items-center justify-between w-[300px] h-[130px] shadow-lg px-5 bg-gradient-to-r from-green-400 to-green-300 rounded-lg">
+            <a href="#" class="flex items-center justify-between w-full h-[200px] shadow-lg px-5 bg-gradient-to-r from-green-400 to-green-300 rounded-lg">
                 <div class="flex flex-col gap-3">
                     <h1 class="text-4xl font-semibold text-white drop-shadow-md">27</h1>
-                    <h2 class="text-white font-semibold drop-shadow-md">Booked</h2>
+                    <h2 class="text-white font-semibold text-xl drop-shadow-md">Booked</h2>
                 </div>
                 <div>
                     <i class="text-white text-4xl drop-shadow-md fa-solid fa-calendar-check"></i>
                 </div>
             </a>
-            <a href="#" class="flex items-center justify-between w-[300px] h-[130px] shadow-lg px-5 bg-gradient-to-r from-orange-400 to-orange-300 rounded-lg">
+            <a href="#" class="flex items-center justify-between w-full h-[200px] shadow-lg px-5 bg-gradient-to-r from-orange-400 to-orange-300 rounded-lg">
                 <div class="flex flex-col gap-3">
                     <h1 class="text-4xl font-semibold text-white drop-shadow-md">11</h1>
-                    <h2 class="text-white font-semibold drop-shadow-md">Check In</h2>
+                    <h2 class="text-white font-semibold text-xl drop-shadow-md">Check In</h2>
                 </div>
                 <div>
                     <i class="text-white text-4xl drop-shadow-md fa-solid fa-sign-in-alt"></i>
                 </div>
             </a>
-            <a href="#" class="flex items-center justify-between w-[300px] h-[130px] shadow-lg px-5 bg-gradient-to-r from-red-400 to-red-300 rounded-lg">
+            <a href="#" class="flex items-center justify-between w-full h-[200px] shadow-lg px-5 bg-gradient-to-r from-red-400 to-red-300 rounded-lg">
                 <div class="flex flex-col gap-3">
                     <h1 class="text-4xl font-semibold text-white drop-shadow-md">14</h1>
-                    <h2 class="text-white font-semibold drop-shadow-md">Check Out</h2>
+                    <h2 class="text-white font-semibold text-xl drop-shadow-md">Check Out</h2>
                 </div>
                 <div>
                     <i class="text-white text-4xl drop-shadow-md fa-solid fa-sign-out-alt"></i>  
@@ -158,25 +158,25 @@
             </div>
             <div class="w-full relative flex flex-col gap-2">
                 <div class="flex gap-3">
-                    <a href="#" class="shadow-lg h-[200px] rounded-lg bg-white flex flex-col items-center justify-center" style="width: 240px;">
+                    <a href="#" class="shadow-lg h-[200px] rounded-lg bg-white flex flex-col items-center justify-center w-full">
                         <i class="fas fa-bed text-4xl text-slate-600"></i>
                         <h1 class="mt-4 text-xl font-semibold text-slate-700">Total Rooms</h1>
                     </a>
-                    <a href="#" class="shadow-lg h-[200px] rounded-lg bg-white  flex flex-col items-center justify-center" style="width: 240px;">
+                    <a href="#" class="shadow-lg h-[200px] rounded-lg bg-white  flex flex-col items-center justify-center w-full">
                         <i class="fas fa-user text-4xl text-slate-600"></i>
                         <h1 class="mt-4 text-xl font-semibold text-slate-700">Staff</h1>
                     </a>
-                    <a href="#" class="shadow-lg h-[200px] rounded-lg bg-white  flex flex-col items-center justify-center" style="width: 240px;">
+                    <a href="#" class="shadow-lg h-[200px] rounded-lg bg-white  flex flex-col items-center justify-center w-full">
                         <i class="fas fa-comment-dots text-4xl text-slate-600"></i>
                         <h1 class="mt-4 text-xl font-semibold text-slate-700">Feedback</h1>
                     </a>
                 </div>                
                 <div class="flex gap-2">
-                    <a href="#" class="shadow-lg w-1/2 h-[200px] rounded-lg justify-center items-center flex flex-col  bg-white">
+                    <a href="#" class="shadow-lg w-full h-[200px] rounded-lg justify-center items-center flex flex-col  bg-white">
                         <i class="fas fa-wallet text-4xl text-slate-600"></i>
                         <h1 class="mt-4 text-xl font-semibold text-slate-700">Total Earnings</h1>
                     </a>
-                    <a href="#" class="shadow-lg w-1/2 h-[200px] rounded-lg justify-center items-center flex flex-col  bg-white">
+                    <a href="#" class="shadow-lg w-full h-[200px] rounded-lg justify-center items-center flex flex-col  bg-white">
                         <i class="fas fa-box text-4xl text-slate-600"></i>
                         <h1 class="mt-4 text-xl font-semibold text-slate-700">Inventory</h1>
                     </a>

@@ -15,15 +15,14 @@ body {
 
 .fade-in {
     opacity: 0;
-    transform: translateY(10px); /* Start slightly below its final position */
+    transform: translateY(10px);
     transition: transform .5s ease-in, opacity .5s ease-in;
 }
 
 .fade-in-visible {
     opacity: 1;
-    transform: translateY(0); /* Move to its final position */
+    transform: translateY(0);
 }
-
 
 
 nav, .mobile-navbar {
