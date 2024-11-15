@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Diana's Resort | Admin Panel</title>
+    <title>Diana's Resort | Admin Dashboard</title>
 </head>
 <body class="bg-slate-200">
 
@@ -31,7 +31,7 @@
                 <img src="../assets/testimonials/test.png" alt="ADMIN PROFILE" class="rounded-full w-[40px] h-[40px]">
                 <div>
                     <p class="text-sm font-bold text-green-950">Yuri G.</p>
-                    <p class="text-[10px] font-semibold text-green-950">yuri@gmail.com</p>
+                    <p class="text-[10px] font-semibold text-green-950">yurigonzaga@gmail.com</p>
                 </div>
             </div>
             <div class="w-[40px] h-[40px] bg-white rounded-xl flex items-center justify-center" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;">
@@ -104,7 +104,7 @@
             <a href="#" class="flex items-center justify-between w-full h-[200px] shadow-lg px-5 bg-gradient-to-r from-blue-400 to-blue-300 rounded-lg">
                 <div class="flex flex-col gap-3">
                     <h1 class="text-4xl font-semibold text-white drop-shadow-md">23</h1>
-                    <h2 class="text-white font-semibold drop-shadow-md">Pending</h2>
+                    <h2 class="text-white font-semibold text-xl drop-shadow-md">Pending</h2>
                 </div>
                 <div>
                     <i class="text-white text-4xl drop-shadow-md fa-solid fa-hourglass-half"></i>
@@ -113,7 +113,7 @@
             <a href="#" class="flex items-center justify-between w-full h-[200px] shadow-lg px-5 bg-gradient-to-r from-green-400 to-green-300 rounded-lg">
                 <div class="flex flex-col gap-3">
                     <h1 class="text-4xl font-semibold text-white drop-shadow-md">27</h1>
-                    <h2 class="text-white font-semibold drop-shadow-md">Booked</h2>
+                    <h2 class="text-white font-semibold text-xl drop-shadow-md">Booked</h2>
                 </div>
                 <div>
                     <i class="text-white text-4xl drop-shadow-md fa-solid fa-calendar-check"></i>
@@ -122,7 +122,7 @@
             <a href="#" class="flex items-center justify-between w-full h-[200px] shadow-lg px-5 bg-gradient-to-r from-orange-400 to-orange-300 rounded-lg">
                 <div class="flex flex-col gap-3">
                     <h1 class="text-4xl font-semibold text-white drop-shadow-md">11</h1>
-                    <h2 class="text-white font-semibold drop-shadow-md">Check In</h2>
+                    <h2 class="text-white font-semibold text-xl drop-shadow-md">Check In</h2>
                 </div>
                 <div>
                     <i class="text-white text-4xl drop-shadow-md fa-solid fa-sign-in-alt"></i>
@@ -131,7 +131,7 @@
             <a href="#" class="flex items-center justify-between w-full h-[200px] shadow-lg px-5 bg-gradient-to-r from-red-400 to-red-300 rounded-lg">
                 <div class="flex flex-col gap-3">
                     <h1 class="text-4xl font-semibold text-white drop-shadow-md">14</h1>
-                    <h2 class="text-white font-semibold drop-shadow-md">Check Out</h2>
+                    <h2 class="text-white font-semibold text-xl drop-shadow-md">Check Out</h2>
                 </div>
                 <div>
                     <i class="text-white text-4xl drop-shadow-md fa-solid fa-sign-out-alt"></i>  

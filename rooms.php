@@ -47,25 +47,25 @@
             <div class="2xl:p-10 p-5 nav-link-list flex justify-center items-center relative">
                 <ul class="nav-container flex items-center 2xl:gap-7 xl:gap-2 gap-1 justify-center">
                     <li>
-                        <a href="index.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">HOME</a>
+                        <a href="index.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">HOME</a>
                     </li>
                     <li>
-                        <a href="facilities.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">FACILITIES</a>
+                        <a href="facilities.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">FACILITIES</a>
                     </li>
                     <li>
-                        <a href="rooms.html" class="nav-link link-active duration-1000 ease-in xl:text-xl lg:text-md text-sm font-semibold text-green-50 bg-green-950 rounded-br-3xl rounded-tl-3xl px-3 py-2 me-2">ROOMS</a>
+                        <a href="rooms.php" class="nav-link link-active duration-1000 ease-in xl:text-xl lg:text-md text-sm font-semibold text-green-50 bg-green-950 rounded-br-3xl rounded-tl-3xl px-3 py-2 me-2">ROOMS</a>
                     </li>
                     <li>
-                        <a href="index.html"><img src="assets/logo/logo.png" alt="LOGO" class="duration-1000 ease-in logo-image p-2"></a>
+                        <a href="index.php"><img src="assets/logo/logo.png" alt="LOGO" class="duration-1000 ease-in logo-image p-2"></a>
                     </li>
                     <li>
-                        <a href="offers.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2 ml-2">OFFERS</a>
+                        <a href="offers.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2 ml-2">OFFERS</a>
                     </li>
                     <li>
-                        <a href="gallery.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">GALLERY</a>
+                        <a href="gallery.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">GALLERY</a>
                     </li>
                     <li>
-                        <a href="contact.html" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">CONTACT</a>
+                        <a href="contact.php" class="nav-link duration-1000 ease-in xl:text-xl lg:text-lg text-sm font-semibold text-green-50 px-3 py-2">CONTACT</a>
                     </li>
                 </ul>
                 <a href="#" class="book-now-floating-btn hidden xl:block hover:rounded-3xl bg-green-50 text-base duration-200 ease-in rounded-md text-green-950 py-3 px-10 font-semibold ">
@@ -75,7 +75,7 @@
         </nav>
 
         <div class="flex sm:hidden justify-between p-5 mobile-navbar fixed top-0 left-0 w-full z-40">
-            <a href="index.html"><img src="assets/logo/logo.png" alt="LOGO" class="mobile-logo-image duration-500 ease-in w-24 p-2"></a>
+            <a href="index.php"><img src="assets/logo/logo.png" alt="LOGO" class="mobile-logo-image duration-500 ease-in w-24 p-2"></a>
             <button onclick="toggleSidebar()" id="menuBtn" class="text-3xl font-bold text-green-50">
                 <i class="fa-solid fa-bars" id="menuIcon"></i>
             </button>
@@ -92,37 +92,37 @@
         </div>
         <ul class="flex flex-col gap-2 ps-5 pt-5">
             <li>
-                <a href="index.html" class="flex ps-3 py-1">
+                <a href="index.php" class="flex ps-3 py-1">
                     <i class="fa-solid w-[60px] fa-house text-green-950 text-2xl"></i>
                     <p class="text-xl text-green-950">Home</p>
                 </a>
             </li>
             <li>
-                <a href="facilities.html" class="flex ps-3 py-1">
+                <a href="facilities.php" class="flex ps-3 py-1">
                     <i class="fa-solid w-[60px] fa-person-swimming text-green-950 text-2xl"></i>
                     <p class="text-xl text-green-950">Facilities</p>
                 </a>
             </li>
             <li class="sidebar-nav-link-active rounded-tl-3xl rounded-bl-3xl">
-                <a href="rooms.html" class="flex ps-3 py-1">
+                <a href="rooms.php" class="flex ps-3 py-1">
                     <i class="fa-solid w-[60px] fa-bed text-green-950 text-2xl"></i>
                     <p class="text-xl text-green-950">Rooms</p>
                 </a>
             </li>
             <li>
-                <a href="offers.html" class="flex ps-3 py-1">
+                <a href="offers.php" class="flex ps-3 py-1">
                     <i class="fa-solid w-[60px] fa-tags text-green-950 text-2xl"></i>
                     <p class="text-xl text-green-950">Offers</p>
                 </a>
             </li>
             <li>
-                <a href="gallery.html" class="flex ps-3 py-1">
+                <a href="gallery.php" class="flex ps-3 py-1">
                     <i class="fa-solid w-[60px] fa-images text-green-950 text-2xl"></i>
                     <p class="text-xl text-green-950">Gallery</p>
                 </a>
             </li>
             <li>
-                <a href="contact.html" class="flex ps-3 py-1">
+                <a href="contact.php" class="flex ps-3 py-1">
                     <i class="fa-solid w-[60px] fa-envelope text-green-950 text-2xl"></i>
                     <p class="text-xl text-green-950">Contact</p>
                 </a>
@@ -163,23 +163,7 @@
     </div>
     <div class="overlay"></div>
 
-    <div class="fade-in absolute bottom-0 z-20 bg-green-50 flex sm:hidden items-center justify-center px-2 py-5" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
-        <img src="assets/decoration/leaf-left.png" class="leaf left-leaf w-2/12" alt="LEAF">
-        <div class="tagline-container flex-col px-3 text-center">
-            <h1 class="text-green-950 font-bold text-xl">Diana's Hotel & Resort</h1>
-            <p class="text-green-900 text-[10px]">LUXURY BEYOND BOUNDARIES, COMFORT WITHOUT COMPROMISE</p>
-        </div>
-        <img src="assets/decoration/leaf-right.png" class="leaf right-leaf w-2/12" alt="LEAF" >
-    </div>
-
-    <div class="fade-in hidden sm:flex md:gap-5 items-center justify-center px-2 py-5 xl:py-10" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
-        <img src="assets/decoration/leaf-left.png" class="leaf left-leaf w-2/12 md:w-[120px]" alt="LEAF">
-        <div class="tagline-container flex-col px-3 text-center">
-            <h1 class="text-green-950 font-bold text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Diana's Hotel & Resort</h1>
-            <p class="text-green-900 text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[19px]">LUXURY BEYOND BOUNDARIES, COMFORT WITHOUT COMPROMISE</p>
-        </div>
-        <img src="assets/decoration/leaf-right.png" class="leaf right-leaf w-2/12 md:w-[120px]" alt="LEAF" >
-    </div>
+    <?php include 'reusable/tagline.php' ?>
 
     <div class="my-10">
         <div class="px-5 lg:flex flex-wrap">
@@ -196,86 +180,15 @@
                 <button class="w-[180px] py-2 text-sm text-green-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 bg-green-950 bg-opacity-50 hover:bg-opacity-100 duration-200 ease-in border-2 border-green-50">FAMILY ROOM</button>
             </div>
             <div class="fade-in relative lg:w-1/2 w-full">
-                <img src="assets/rooms/roomFive.jpg" alt="ROOM FOUR      ">
+                <img src="assets/rooms/roomFive.jpg" alt="ROOM FOUR">
                 <button class="w-[180px] py-2 text-sm text-green-50 absolute top-1/2 left-1/2 transform -translate-x-1/2 bg-green-950 bg-opacity-50 hover:bg-opacity-100 duration-200 ease-in border-2 border-green-50">SUPERIOR ROOM</button>
             </div>
         </div>
     </div>
 
-    <div class="fade-in bg-green-950 flex justify-center items-center flex-col gap-3 px-2 py-10 my-10">
-        <h1 class="text-green-50 hidden sm:block text-xl sm:text-2xl md:text-3xl font-extralight text-center">Reserve directly through our website for the best rates at Diana's Hotel & Resort!</h1>
-        <button class="bg-green-50 text-green-950 md:text-xl hover:bg-green-200 duration-200 hover:rounded-xl font-bold max-w-max px-5 rounded-sm py-4">CHECK RATES AND AVAILABLE ROOMS</button>
-    </div>
+    <?php include 'reusable/check-available-room.php' ?>
 
-    <footer class="overflow-x-hidden">
-        <div class="bg-green-50 gap-10 mt-5 flex flex-col lg:flex-row mb-10 lg:px-10 justify-center items-center px-2">
-            <div class="items-center lg:items-start flex flex-col w-full">
-                <div class="flex flex-col lg:items-start items-center">
-                    <img src="assets/logo/logo.png" alt="LOGO" class="w-[80px]">
-                    <h1 class="text-green-950 text-3xl font-bold">Diana's Hotel</h1>
-                </div>
-                <p class="py-1 text-center lg:text-left text-[10px] sm:text-[15px] text-green-950 w-96">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, praesentium!</p>
-                <div class="flex xl:gap-2 gap-1">
-                    <a href="#" class="no-underline text-green-950 text-lg sm:text-xl">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                    <a href="#" class="no-underline text-green-950 text-lg sm:text-xl">
-                        <i class="fa-brands fa-tiktok"></i>
-                    </a>
-                    <a href="#" class="no-underline text-green-950 text-lg sm:text-xl">
-                        <i class="fa-brands fa-square-instagram"></i>
-                    </a>
-                    <a href="#" class="no-underline text-green-950 text-lg sm:text-xl">
-                        <i class="fa-brands fa-square-x-twitter"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="flex w-full justify-between sm:justify-around lg:justify-between">
-                <div>
-                    <h1 class="text-md sm:text-lg">Contacts</h1>
-                    <div class="mt-3 flex flex-col gap-1">
-                        <div class="flex items-center">
-                            <i class="fa-solid fa-envelope text-[10px] sm:text-[14px] w-[15px] sm:w-[20px]"></i>
-                            <p class="text-[10px] sm:text-[14px] text-green-950">dianashotel@gmail.com</p>
-                        </div>
-                        <div class="flex items-center">
-                            <i class="fa-solid fa-phone text-[10px] sm:text-[14px] w-[15px] sm:w-[20px]"></i>
-                            <p class="text-[10px] sm:text-[14px] text-green-950">09080984368</p>
-                        </div>
-                        <div class="flex items-center">
-                            <i class="fa-solid fa-location-dot text-[10px] sm:text-[14px] w-[15px] sm:w-[20px]"></i>
-                            <p class="text-[10px] sm:text-[14px] text-green-950">Bongabon, Nueva Ecija</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h1 class="text-md sm:text-lg">Quick Links</h1>
-                    <div class="mt-3">
-                        <ul class="flex flex-col gap-1">
-                            <li class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Home</li>
-                            <li class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Facilities</li>
-                            <li class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Rooms</li>
-                            <li class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Offers</li>
-                            <li class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Gallery</li>
-                            <li class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Contact</li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <h1 class="text-md sm:text-lg">Supports</h1>
-                    <div class="mt-3 flex flex-col gap-1">
-                        <a href="#" class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Support Desk</a>
-                        <a href="#" class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">FAQs</a>
-                        <a href="#" class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Contact</a>
-                        <a href="#" class="text-green-950 text-[10px] sm:text-[14px] cursor-pointer">Report</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bg-green-950 p-2 justify-center flex">
-            <p class="text-green-50 text-[10px] sm:text-[14px]">&copy; 2024 Diana's Hotel & Resort. All rights reserved.</p>
-        </div>
-    </footer>
+    <?php include 'reusable/footer.php' ?>
 
     <script src="js/script.js"></script>
     <script src="js/animation.js"></script>
